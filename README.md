@@ -1,160 +1,315 @@
 CustomLiveWall
 
 <p align="center">
-  <strong>A modern macOS application for setting and managing custom live wallpapers.</strong>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/platform-macOS-black?style=for-the-badge&logo=apple" alt="macOS">
+  <img src="https://img.shields.io/badge/macOS-App-black?style=for-the-badge&logo=apple" alt="macOS">
   <img src="https://img.shields.io/badge/Swift-SwiftUI-orange?style=for-the-badge&logo=swift" alt="Swift">
   <img src="https://img.shields.io/github/license/sohan-parves/CustomLiveWall?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/stars/sohan-parves/CustomLiveWall?style=for-the-badge" alt="GitHub Stars">
 </p>
+<p align="center">
+  <strong>A modern macOS application for custom live and video wallpapers.</strong>
+</p>
+<p align="center">
+  Set your favorite videos as your desktop wallpaper and give your Mac a more dynamic look.
+</p>
+
+⸻
+
+📥 Download
+
+Latest Release
+
+<p align="center">
+<a href="https://github.com/sohan-parves/CustomLiveWall/releases/latest/download/CustomLiveWall.dmg">
+  <img src="https://img.shields.io/badge/Download-CustomLiveWall.dmg-black?style=for-the-badge&logo=apple" alt="Download CustomLiveWall">
+</a>
+</p>
+
+🍎 macOS
+
+⬇️ Download CustomLiveWall.dmg
+
+Or visit the Releases page:
+
+View all CustomLiveWall releases
+
+The download button always points to the asset named CustomLiveWall.dmg in the latest GitHub Release.
 
 ⸻
 
 ✨ About
 
-CustomLiveWall is a macOS application designed to give users more control over their desktop background by allowing them to use custom live wallpapers.
+CustomLiveWall is a macOS application that allows users to use custom videos as live or animated desktop wallpapers.
 
-The goal of this project is to create a simple, modern, and lightweight experience for managing animated and video-based wallpapers on macOS.
+The project is built specifically for macOS using modern Apple technologies such as Swift, SwiftUI, AppKit, and AVFoundation.
+
+The goal of CustomLiveWall is to provide a simple, beautiful, and lightweight way to personalize the Mac desktop.
 
 ⸻
 
 🚀 Features
 
-* 🎥 Set custom video wallpapers
-* 🖥️ Designed specifically for macOS
-* 🎨 Modern and clean user interface
-* 📁 Custom wallpaper management
-* ⚡ Lightweight and optimized experience
-* 🔄 Wallpaper playback management
-* 🖥️ Support for desktop wallpaper customization
-* 🌙 Designed to work naturally with the macOS environment
+* 🎥 Custom video wallpapers
+* 🖥️ macOS desktop wallpaper support
+* 🎨 Modern SwiftUI interface
+* 📁 Custom wallpaper selection
+* ▶️ Video playback
+* 🖼️ Wallpaper picker
+* ⚡ Lightweight application architecture
+* 🍎 Native macOS experience
+* 🔄 Wallpaper management
+* 🐱 Sample wallpaper collection
 
 More features are currently under development.
 
 ⸻
 
-🛠️ Tech Stack
+🛠️ Technology
 
-* Swift
-* SwiftUI
-* Xcode
-* AVFoundation
-* AppKit
-* macOS APIs
+CustomLiveWall is built using:
+
+Technology	Purpose
+Swift	Main programming language
+SwiftUI	User interface
+AppKit	macOS integration
+AVFoundation	Video playback
+UniformTypeIdentifiers	File type handling
+Xcode	Development environment
 
 ⸻
 
-📋 Requirements
+💻 Requirements
 
-Before building the project, make sure you have:
+Minimum Requirements
 
+* A Mac
 * macOS
-* Xcode
-* Swift
-* A Mac capable of running the required macOS version
+* Apple Silicon or compatible Mac hardware
+* Xcode for building from source
+
+The exact minimum macOS version may change during development.
 
 ⸻
 
-🔧 Installation
+📦 Installation
+
+Method 1 — DMG
+
+1. Download CustomLiveWall.dmg from the latest release.
+2. Open the downloaded .dmg file.
+3. Find CustomLiveWall.app.
+4. Drag CustomLiveWall.app into the Applications folder.
+5. Open Applications.
+6. Launch CustomLiveWall.
+
+If macOS blocks the application
+
+Because the current release may not be signed and notarized with an Apple Developer ID, macOS may display a security warning.
+
+If you trust the application:
+
+1. Open System Settings.
+2. Go to Privacy & Security.
+3. Scroll down to the security section.
+4. Click Open Anyway if the option appears.
+5. Confirm that you want to open CustomLiveWall.
+
+Future releases may include Developer ID signing and Apple notarization.
+
+⸻
+
+🧑‍💻 Build From Source
+
+If you want to build CustomLiveWall yourself:
 
 1. Clone the repository
 
 git clone https://github.com/sohan-parves/CustomLiveWall.git
 
-2. Open the project
+2. Enter the project directory
 
 cd CustomLiveWall
+
+3. Open the Xcode project
+
 open CustomLiveWall.xcodeproj
 
-3. Build and Run
+4. Build and run
 
-Open the project in Xcode, select your Mac as the run destination, and press:
+In Xcode:
+
+Product → Run
+
+Or press:
 
 ⌘ + R
 
 ⸻
 
-📁 Project Structure
+🎬 Using a Custom Wallpaper
 
-CustomLiveWall/
-│
-├── CustomLiveWall/
-│   ├── AppDelegate
-│   ├── Views/
-│   ├── Managers/
-│   ├── Models/
-│   ├── Utilities/
-│   ├── Wallpaper/
-│   └── Resources/
-│
-├── CustomLiveWall.xcodeproj
-├── .gitignore
-└── README.md
+CustomLiveWall is designed to allow users to select their own video files and use them as desktop wallpapers.
 
-The project structure may change as development continues.
+Supported wallpaper formats may depend on the video formats supported by the installed macOS version and the application’s current implementation.
+
+For best compatibility, use common video formats such as:
+
+.mp4
+.mov
 
 ⸻
 
-🎬 Live Wallpaper
+🖼️ Sample Wallpapers
 
-CustomLiveWall is being developed around video-based desktop wallpapers.
+The project includes sample wallpapers that can be selected through the application’s wallpaper picker.
 
-The application is intended to allow users to select their own video and use it as an animated desktop background.
+Examples include:
+
+* Furina Dance
+* Anime Mystery
+* 7 Girls Praising
+* Other sample video wallpapers
 
 ⸻
 
-🖥️ Screenshots
+📸 Screenshots
 
-Screenshots will be added as the user interface develops.
+Screenshots of the application will be added as the interface continues to improve.
 
 ⸻
 
 🗺️ Roadmap
 
-* Create macOS project
-* Set up Git repository
+Completed
+
+* Create macOS application
+* SwiftUI interface
+* Xcode project setup
+* Git repository
 * GitHub repository
-* Basic wallpaper architecture
-* Add video wallpaper selection
-* Improve wallpaper playback
-* Add wallpaper library
-* Add multiple display support
-* Add automatic wallpaper switching
-* Add settings panel
-* Improve performance
-* Add polished macOS UI
-* Release first stable version
+* Wallpaper picker architecture
+* Video wallpaper support
+* Sample wallpaper system
+* Custom wallpaper selection
+
+Planned
+
+* Improve wallpaper performance
+* Multiple monitor support
+* Automatic wallpaper switching
+* Wallpaper playlists
+* Wallpaper favorites
+* Better settings interface
+* Improved video controls
+* More video format support
+* Dark/light interface improvements
+* Memory and CPU optimization
+* Developer ID signing
+* Apple notarization
+* Automatic updates
+* Public stable release
+
+⸻
+
+🏗️ Project Structure
+
+CustomLiveWall/
+│
+├── CustomLiveWall/
+│   ├── Assets.xcassets
+│   ├── Models/
+│   ├── Managers/
+│   ├── Utilities/
+│   ├── Views/
+│   ├── WallpaperManager
+│   ├── WallpaperPicker
+│   ├── WallpaperSource
+│   ├── WallpaperStorage
+│   ├── WallpaperView
+│   ├── WallpaperWindow
+│   └── ...
+│
+├── CustomLiveWall.xcodeproj
+├── .gitignore
+└── README.md
+
+The project structure is under active development and may change.
+
+⸻
+
+🔐 Security & macOS Gatekeeper
+
+Current development builds may not have Apple Developer ID signing or notarization.
+
+As a result, macOS Gatekeeper may display a warning when launching the application downloaded from the Internet.
+
+For production releases, the project plans to use:
+
+* Developer ID Application signing
+* Developer ID Installer where applicable
+* Apple notarization
+* Stapling
+* Hardened Runtime
+
+This will provide a more trusted installation experience for users.
 
 ⸻
 
 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, suggestions, bug reports, and feature requests are welcome.
 
-If you want to contribute:
+Fork the project
 
-1. Fork this repository.
-2. Create a new branch.
+git clone https://github.com/sohan-parves/CustomLiveWall.git
+cd CustomLiveWall
+
+Create a branch
 
 git checkout -b feature/your-feature
 
-3. Make your changes.
-4. Commit your changes.
+Make your changes
 
+Build and test the application using Xcode.
+
+Commit your changes
+
+git add .
 git commit -m "Add your feature"
 
-5. Push the branch.
+Push your branch
 
 git push origin feature/your-feature
 
-6. Open a Pull Request.
+Then create a Pull Request on GitHub.
 
 ⸻
 
-🐛 Issues
+🐛 Bug Reports
 
-If you find a bug or have a feature request, please open an issue in the GitHub repository.
+Found a bug?
+
+Please open an issue:
+
+Report a Bug
+
+When reporting a bug, include:
+
+* macOS version
+* Mac model
+* CustomLiveWall version
+* Steps to reproduce the problem
+* Screenshots or logs if available
+
+⸻
+
+💡 Feature Requests
+
+Have an idea for CustomLiveWall?
+
+Open a feature request:
+
+Request a Feature
 
 ⸻
 
@@ -162,7 +317,7 @@ If you find a bug or have a feature request, please open an issue in the GitHub 
 
 This project is currently under development.
 
-A formal open-source license will be added in a future release.
+A formal open-source license will be added to the repository when the project reaches a stable release.
 
 ⸻
 
@@ -171,12 +326,46 @@ A formal open-source license will be added in a future release.
 Sohan Parves
 
 GitHub:
+
 https://github.com/sohan-parves
+
+Project:
+
+https://github.com/sohan-parves/CustomLiveWall
 
 ⸻
 
-⭐ Support
+⭐ Support the Project
 
-If you find this project interesting, consider giving the repository a ⭐ on GitHub.
+If you like CustomLiveWall, consider:
 
-CustomLiveWall — Your desktop, your wallpaper.
+* ⭐ Starring the repository
+* 🐛 Reporting bugs
+* 💡 Suggesting features
+* 🔧 Contributing code
+* 📢 Sharing the project
+
+Every contribution helps improve the project.
+
+⸻
+
+📦 Releases
+
+All official application builds are distributed through GitHub Releases.
+
+Latest Release
+
+Download the latest CustomLiveWall release
+
+Direct DMG Download
+
+⬇️ Download CustomLiveWall.dmg
+
+⸻
+
+<p align="center">
+  Made with ❤️ for macOS
+</p>
+<p align="center">
+  <strong>CustomLiveWall — Your desktop, your wallpaper.</strong>
+</p>
