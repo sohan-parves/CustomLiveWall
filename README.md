@@ -20,7 +20,7 @@ CustomLiveWall
 Latest Release
 
 <p align="center">
-<a href="https://github.com/sohan-parves/CustomLiveWall/releases/latest/download/CustomLiveWall.dmg">
+<a href="[https://github.com/sohan-parves/CustomLiveWall/releases/latest/download/CustomLiveWall.dmg](https://github.com/sohan-parves/CustomLiveWall/releases/download/v1.0.0/CustomLiveWall.app.zip">
   <img src="https://img.shields.io/badge/Download-CustomLiveWall.dmg-black?style=for-the-badge&logo=apple" alt="Download CustomLiveWall">
 </a>
 </p>
