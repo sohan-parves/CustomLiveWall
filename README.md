@@ -27,13 +27,13 @@ Latest Release
 
 🍎 macOS
 
-⬇️ Download CustomLiveWall.dmg
+⬇️ Download CustomLiveWall.app
 
 Or visit the Releases page:
 
 View all CustomLiveWall releases
 
-The download button always points to the asset named CustomLiveWall.dmg in the latest GitHub Release.
+The download button always points to the asset named CustomLiveWall.app in the latest GitHub Release.
 
 ⸻
 
